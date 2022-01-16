@@ -1,0 +1,5 @@
+And/Or Operator
+Please select the correct statement(s) about && and || operators.
+
+ANSWER - (a || b) && c is true and either a or b is true
+          a || b is true if either a or b is true  (Both)
