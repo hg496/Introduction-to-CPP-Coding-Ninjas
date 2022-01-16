@@ -1,0 +1,41 @@
+Number Pattern 2
+Print the following pattern
+Pattern for N = 4
+
+
+The dots represent spaces.
+
+Input Format :
+N (Total no. of rows)
+Output Format :
+Pattern in N lines
+Sample Input :
+5
+Sample Output :
+
+
+The dots represent spaces.
+
+/****************************** SOURCE CODE ******************************/
+
+int main(){
+    
+    int n; cin>>n;
+      
+    for(int i=1; i<=n; i++)
+    {
+        int num=0;
+        for(int j=1; j<=n; j++)
+        {
+            if(j<=n-i) cout<<" ";
+            
+            else 
+            {
+                cout<<num+i;
+                num++;
+            }
+        }
+        cout<<endl;
+    }
+    
+}
